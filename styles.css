@@ -39,6 +39,13 @@ header button a {
     text-shadow: 2px 2px 1px #FF16E880;
 }
 
+header button:hover {
+    padding: 5px 15.5px;
+    transform: translateX(-1px);
+    transform: translateY(-1px);
+    border: .5px solid #9700ae3f;
+}
+
 nav {
     display: flex;
     gap: 20px;
@@ -127,13 +134,13 @@ ul li {
     background: linear-gradient(to top, #9600AE, #FF16E8);
     z-index: 1;
     position: relative;
+    padding-top: 150px;
 }
 .galeria h2 {
     text-align: center;
     color: #fff;
     font-weight: 400;
-    font-size: 45px;
-    padding-top: 100px;
+    font-size: 50px;
     margin-bottom: 50px;
 }
 
@@ -148,7 +155,7 @@ ul li {
     max-height: fit-content;
     margin-left: 5%;
     display: flex;
-    margin-bottom: 200px;
+    margin-bottom: 50px;
     overflow-x: hidden;
     background: linear-gradient(to right, #9000ff00, #fd00b1da);
     border-radius: 10px;
@@ -156,7 +163,7 @@ ul li {
 
 #slider2 {
     display: flex;
-    gap: 2%;
+    gap: 21px;
     margin-right: 100px;
 }
 
@@ -172,7 +179,7 @@ ul li {
 
 #btnJs1 {
     position: absolute;
-    top: 440px;
+    top: 490px;
     left: 20px;
     background-color: transparent;
     opacity: 0;
@@ -180,7 +187,7 @@ ul li {
 
 #btnJs2 {
     position: absolute;
-    top: 440px;
+    top: 490px;
     left: 640px;
     background-color: transparent;
 }
@@ -191,19 +198,26 @@ ul li {
 
 .lado-direito {
     width: 40%;
-    padding-top: 40px;
+}
+
+.lado-direito h4 {
+    color: #fff;
+    font-weight: 400;
+    font-size: 35px;
+    margin-bottom: 10px;
 }
 
 .lado-direito p {
     color: #fff;
     font-size: 30px;
     font-weight: 400;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
 }
 
 .divImg {
-    width: 275px;
-    height: 273px;
+    width: 230px;
+    height: 235px;
     margin: auto;
 }
 
@@ -212,5 +226,121 @@ ul li {
     height: 100%;
     position: initial;
 }
+
+#procedimentos {
+ background-color: #F4E3FD;
+}
+
+#procedimentos h2 {
+    font-size: 60px;
+    text-align: center;
+    color: #9600AE;
+    padding-top: 40px;
+    margin-bottom: 26px;
+    font-weight: 400;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.proced1 {
+    margin-left: 6%;
+}
+
+.proced2 {
+    margin-right: 6%;
+}
+
+.titlesProcedimento h3 {
+    font-size: 27px;
+    font-family: "roboto";
+    font-weight: 700;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.titlesProcedimento ul   {
+    margin-left: 40%;
+}
+
+.titlesProcedimento ul li   {
+    font-size: 22px;
+    line-height: 20px;
+}
+
+.procedimento {
+    max-width: 550px;
+    height: fit-content;
+    overflow-x: hidden;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    overflow-y: hidden;
+}
+
+.botoes {
+    display: flex;
+    margin: 0;
+    text-align: center;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7%;
+}
+
+.botoes li::marker {
+    font-size: 32px;
+}
+
+.paragrafo {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.teste {
+    display: flex;
+}
+
+.par1 {
+    width: 510px;
+    margin-left: 20px;
+}
+
+.par2 {
+    width: 510px;
+    margin-left: 20px;
+}
+
+.par3 {
+    width: 510px;
+    margin-left: 20px;
+}
+
+.paragrafo p {
+    font-size: 16px;
+    font-family: "roboto";
+    line-height: 23px;
+    margin-block: 35px;
+}
+
+.imgProcedimentos {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.imgProcedimentos img {
+    height: 200px;
+
+}
+
+
 
 

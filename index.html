@@ -13,42 +13,46 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Dancing+Script:wght@500&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     <main>
-        <header>
-            <button>
-                <a href="">Rebeca Angelim</a>
-            </button>
+        <div id="home">
 
-            <nav>
-                <a href="">Cursos</a>
-                <a href="">Agende seu horário</a>
-                <a href="">Instagram</a>
-            </nav>
-
-        </header>
-        <section class="inicio ">
-            <h1 id="titulo">
-                Rebeca Angelim - Unhas | Cursos
-            </h1>
-
-            <ul>
-                <li>Manicure e Pedicure</li>
-            </ul>
-
-            <img src="./assets/bg-waves.svg" alt="fundo de ondas" id="fundo-wave">
-
-            <div>
-                <h3>Confira um pouco do meu trabalho abaixo</h3>
-                <a href="">
-                    <img class="seta" src="./assets/setaInicio.svg" alt="seta para baixo levando para a próxima página">
-                </a>
-            </div>
-        </section>
+            <header>
+                <button>
+                    <a href="">Rebeca Angelim</a>
+                </button>
+    
+                <nav>
+                    <a href="">Cursos</a>
+                    <a href="">Agende seu horário</a>
+                    <a href="">Instagram</a>
+                </nav>
+    
+            </header>
+            <section class="inicio" >
+                <h1 id="titulo">
+                    Rebeca Angelim - Unhas | Cursos
+                </h1>
+    
+                <ul class="ulTitle">
+                    <li>Manicure e Pedicure</li>
+                </ul>
+    
+                <img src="./assets/bg-waves.svg" alt="fundo de ondas" id="fundo-wave">
+    
+                <div>
+                    <h3>Confira um pouco do meu trabalho abaixo</h3>
+                    <a href="#gallery" class="aSeta">
+                        <img class="seta" src="./assets/setaInicio.svg" alt="seta para baixo levando para a próxima página">
+                    </a>
+                </div>
+            </section>
+        </div>
 
         <section class="galeria">
-            <h2>Galeria de fotos</h2>
+            <h2 id="gallery">Galeria de fotos</h2>
             <div class="container">
                 <article id="slider">
                     <div id="slider2">
@@ -79,25 +83,25 @@
     
                         <div class="divsImg div3">
                             <a target="_blank" href="https://instagram.com/rebecaangelim_unhas">
-                                <img src="./assets/img_re1.jpg" alt="">
-                                <img src="./assets/img_re2.jpg" alt="">
-                                <img src="./assets/bg-waves.svg" alt="">
+                                <img src="./assets/maos8.jpg" alt="">
+                                <img src="./assets/maos9.jpg" alt="">
+                                <img src="./assets/maos10.jpg" alt="">
                             </a>
                         </div>
 
                         <div class="divsImg div3">
                             <a target="_blank" href="https://instagram.com/rebecaangelim_unhas">
-                                <img src="./assets/img_re1.jpg" alt="">
-                                <img src="./assets/img_re2.jpg" alt="">
-                                <img src="./assets/bg-waves.svg" alt="">
+                                <img src="./assets/pes2.jpg" alt="">
+                                <img src="./assets/pes3.jpg" alt="">
+                                <img src="./assets/pes4.jpg" alt="">
                             </a>
                         </div>
 
                         <div class="divsImg div3">
                             <a target="_blank" href="https://instagram.com/rebecaangelim_unhas">
-                                <img src="./assets/img_re1.jpg" alt="">
-                                <img src="./assets/img_re2.jpg" alt="">
-                                <img src="./assets/ilustracaoManicure.jpg" alt="">
+                                <img src="./assets/maos11.jpg" alt="">
+                                <img src="./assets/maos12.jpg" alt="">
+                                <img src="./assets/maos13.jpg" alt="">
                             </a>
                         </div>
                     </div>
@@ -108,7 +112,8 @@
                 </article>
     
                 <div class="lado-direito">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit ipsum saepe perspiciatis, in facere temporibus officiis amet optio eligendi quia et? Optio molestias tempore deserunt! Dolor natus eos optio accusamus?</p>
+                    <h4>O que é ser uma manicure?</h4>
+                    <p>Manicure é a profissional responsável pelo embelezamento e saúde das unhas das mãos e dos pés. Trabalhando então, com muita delicadeza e cuidado, assim proporcionando unhas bonitas e saudáveis. Afinal, uma mulher sem unha feita não da né?</p>
                     <div class="divImg">
                         <img src="./assets/ilustracaoManicure.jpg" alt="ilustrção de uma manicure e sua cliente">
                     </div>
@@ -116,8 +121,86 @@
 
             </div>
         </section>
+
+        <section id="procedimentos">
+            <h2>Nosso trabalho da melhor maneira possível</h2>
+
+            <div class="flex">
+                <div class="procedimento proced1">
+                    <div class="titlesProcedimento">
+                        <h3>Procedimentos</h3>
+                        <ul>
+                            <li>Manicure</li>
+                        </ul>
+                    </div>
+    
+                    <div class="paragrafo">
+                        <div class="teste">
+                            <div class="par1">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quia et, laborum neque perspiciatis minima, iste possimus deserunt ipsa, incidunt asperiores architecto ut? Dolore a, temporibus eos libero possimus tempore.</p>
+                            </div>
+                            <div class="par2">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quia et, laborum neque perspiciatis minima, iste possimus deserunt ipsa, incidunt asperiores architecto ut? Dolore a, temporibus eos libero possimus tempore.</p>
+                            </div>
+                            <div class="par3">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quia et, laborum neque perspiciatis minima, iste possimus deserunt ipsa, incidunt asperiores architecto ut? Dolore a, temporibus eos libero possimus tempore.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <ul class="botoes">
+                        <li id="pedicure1"></li>
+                        <li id="pedicure2"></li>
+                        <li id="pedicure3"></li>
+
+                    </ul>
+    
+                </div>
+    
+                <div class="procedimento proced2">
+                    <div class="titlesProcedimento">
+                        <h3>Procedimentos</h3>
+                        <ul>
+                            <li>pedicure</li>
+                        </ul>
+                    </div>
+    
+                    <div class="paragrafo">
+                        <div class="teste">
+                            <div class="par1">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quia et, laborum neque perspiciatis minima, iste possimus deserunt ipsa, incidunt asperiores architecto ut? Dolore a, temporibus eos libero possimus tempore.</p>
+                            </div>
+                            <div class="par2">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quia et, laborum neque perspiciatis minima, iste possimus deserunt ipsa, incidunt asperiores architecto ut? Dolore a, temporibus eos libero possimus tempore.</p>
+                            </div>
+                            <div class="par3">
+                                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam quia et, laborum neque perspiciatis minima, iste possimus deserunt ipsa, incidunt asperiores architecto ut? Dolore a, temporibus eos libero possimus tempore.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <ul class="botoes">
+                        <li id="pedicure1"></li>
+                        <li id="pedicure2"></li>
+                        <li id="pedicure3"></li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="imgProcedimentos">
+                <img src="./assets/maos1.jpg" alt="">
+                <img src="./assets/maos11.jpg" alt="">
+                <img src="./assets/maos13.jpg" alt="">
+                <img src="./assets/maos10.jpg" alt="">
+                <img src="./assets/maos4.jpg" alt="">
+
+            </div>
+        </section>
     </main>
 
+    <script src="https://unpkg.com/scrollreveal"></script>
     <script src="./main.js"></script>
 </body>
 </html>
