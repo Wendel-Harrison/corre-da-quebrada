@@ -11,6 +11,10 @@
     font-family: "cookie";
   }
 
+  main {
+    overflow-x: hidden;
+  }
+
 
 
 header {
@@ -229,6 +233,7 @@ ul li {
 
 #procedimentos {
  background-color: #F4E3FD;
+ padding-bottom: 50px;
 }
 
 #procedimentos h2 {
@@ -303,8 +308,13 @@ ul li {
     height: 200px;
 }
 
-.teste {
+.textosManiJs, .textosPediJs {
     display: flex;
+}
+
+.textosManiJs div p, .textosPediJs div p {
+    font-size: 20px;
+    letter-spacing: 1.3px;
 }
 
 .par1 {
@@ -330,17 +340,65 @@ ul li {
 }
 
 .imgProcedimentos {
+    border-top: 1px solid rgba(97, 97, 97, 0.5);
+    border-bottom: 1px solid rgba(97, 97, 97, 0.5);
+
+
     width: 80%;
     display: flex;
     justify-content: space-between;
     margin: auto;
+    padding-block: 30px;
 }
 
 .imgProcedimentos img {
-    height: 200px;
+    height: 210px;
+    width: 200px;
 
 }
 
+.valores {
+    background-image: url();
+}
+
+.valores h3 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 500;
+    color: wheat;
+}
+
+#pacote {
+    width: 400px;
+    height: 500px;
+    background-image: url(./assets/bg-re.jpg);
+}
+
+#somenteUm {
+    width: 500px;
+    height: 300px;
+    background-image: url(./assets/bg-re.jpg);
+}
+
+.valores button {
+    background-image: url(./assets/bg-re.jpg);
+    border-radius: 30px;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#divBtn {
+    display: flex;
+    justify-content: center;
+}
+
+.valores button a {
+    color: white;
+    font-weight: 700;
+    font-size: 18px;
+    text-shadow: 2px 2px 1px #8F00FF80;
+}
 
 
 
