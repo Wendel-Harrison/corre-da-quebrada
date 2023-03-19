@@ -357,27 +357,54 @@ ul li {
 
 }
 
-.valores {
-    background-image: url();
+#bg-valores {
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+#posicionamento {
+    position: relative;
+    top: -800px;
+}
+
+.valores .flex {
+    justify-content: space-around;
 }
 
 .valores h3 {
     text-align: center;
     font-size: 60px;
     font-weight: 500;
-    color: wheat;
+    color: #000;
+    margin-block: 50px;
+    position: relative;
+    z-index: 1;
 }
 
 #pacote {
-    width: 400px;
-    height: 500px;
+    width: 500px;
+    height: 400px;
     background-image: url(./assets/bg-re.jpg);
+    box-shadow: 1px 3px 3px #9000ff;
+    border-radius: 10px;
+    padding-top: 25px;
+    margin-bottom: 100px;
 }
 
 #somenteUm {
-    width: 500px;
-    height: 300px;
+    width: 600px;
+    height: 250px;
     background-image: url(./assets/bg-re.jpg);
+    box-shadow: 1px 3px 3px #9000ff;
+    border-radius: 10px;
+    padding-top: 25px;
+}
+
+.valores div h4 {
+    text-align: center;
+    font-weight: 400;
+    font-size: 40px;
 }
 
 .valores button {
