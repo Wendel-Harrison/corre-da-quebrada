@@ -237,3 +237,30 @@ sr.reveal("#imgProced3", {
     duration: 2000,
     delay: 1000
 })
+
+sr.reveal("#titleValores", {
+    origin: "top",
+    distance: "50px",
+    duration: 2000,
+})
+
+sr.reveal("#pacote", {
+    origin: "left",
+    distance: "10px",
+    duration: 2000,
+    delay: 1000
+})
+
+sr.reveal("#somenteUm", {
+    origin: "left",
+    distance: "200px",
+    duration: 2000,
+    delay: 1000
+})
+
+sr.reveal("#divBtn", {
+    origin: "top",
+    distance: "10px",
+    duration: 2000,
+    delay: 3000
+})

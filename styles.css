@@ -12,6 +12,7 @@
   }
 
   main {
+    overflow: overlay;
     overflow-x: hidden;
   }
 
@@ -368,6 +369,10 @@ ul li {
     top: -400px;
 }
 
+.valores {
+    max-height: 730px;
+}
+
 .valores .flex {
     justify-content: space-around;
 }
@@ -375,8 +380,9 @@ ul li {
 .valores h3 {
     text-align: center;
     font-size: 60px;
-    font-weight: 500;
-    color: #000;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #fff;
     margin-block: 50px;
     position: relative;
     z-index: 1;
@@ -401,13 +407,92 @@ ul li {
     padding-top: 25px;
 }
 
+.detalhes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.detalhes p {
+    font-size: 35px;
+    margin-left: 25px;
+    width: 50%;
+}
+
+.detalhes li {
+    font-size: 35px;
+    margin-left: 25px;
+    width: 50%;
+}
+
+#pacote .detalhes div {
+    display: flex;
+    background-color: #000;
+    height: 1px;
+    width: 50%;
+    margin-right: 10px;
+}
+
+#somenteUm .detalhes div {
+    width: 20%;
+    height: 1px;
+    background-color: #000;
+}
+
+#somenteUm .detalhes li {
+    width: 50%;
+}
+
+#tolerancia {
+    margin-top: 15px;
+    font-size: 25px;
+}
+
+.flex div h2 {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+    font-family: "roboto";
+    margin-top: 30px;
+    text-shadow: 1px 1px 1px #414141a2 ;
+    animation: pulse 2s infinite;
+    animation-timing-function: ease-in-out;
+    
+
+}
+
+#pacote div hr {
+    padding: 10px;
+    background-color: #000;
+}
+
 .valores div h4 {
     text-align: center;
     font-weight: 400;
     font-size: 40px;
 }
 
-.valores button {
+@keyframes pulse {
+    from {
+      transform: scale3d(1, 1, 1);
+    }
+  
+    50% {
+      transform: scale3d(1.05, 1.05, 1.05);
+    }
+  
+    to {
+      transform: scale3d(1, 1, 1);
+    }
+  }
+
+#pacote h4 {
+    margin-bottom: 80px;
+}
+
+.valores #divBtn button {
     background-image: url(./assets/bg-re.jpg);
     border-radius: 30px;
     padding: 15px 20px;
@@ -415,9 +500,21 @@ ul li {
     text-align: center;
 }
 
+#divBtn a:hover {
+    color: #000000;
+    transition: .5s ease;
+}
+
 #divBtn {
     display: flex;
     justify-content: center;
+}
+
+.divLi img {
+    position: relative;
+    width: 50%;
+    left: 40%;
+    bottom: -10%;
 }
 
 .valores button a {
@@ -425,6 +522,7 @@ ul li {
     font-weight: 700;
     font-size: 18px;
     text-shadow: 2px 2px 1px #8F00FF80;
+    padding: 15px 20px;
 }
 
 
