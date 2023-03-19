@@ -498,6 +498,7 @@ ul li {
     padding: 15px 20px;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 #divBtn a:hover {
@@ -512,9 +513,9 @@ ul li {
 
 .divLi img {
     position: relative;
-    width: 50%;
-    left: 40%;
-    bottom: -10%;
+    width: 40%;
+    left: 50%;
+    bottom: -12%;
 }
 
 .valores button a {
