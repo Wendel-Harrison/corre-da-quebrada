@@ -162,7 +162,6 @@ ul li {
     display: flex;
     margin-bottom: 50px;
     overflow-x: hidden;
-    background: linear-gradient(to right, #9000ff00, #fd00b1da);
     border-radius: 10px;
 }
 
@@ -525,6 +524,159 @@ ul li {
     text-shadow: 2px 2px 1px #8F00FF80;
     padding: 15px 20px;
 }
+
+#cursos {
+    height: 700px;
+    background-image: url(./assets/vetores.svg);
+    background-size: cover;
+}
+
+#titleCursos {
+    text-align: center;
+    color: #9600AE;
+    font-size: 60px;
+    font-weight: 400;
+    padding-top: 70px;
+}
+
+#cursos .flex {
+    margin-top: 120px;
+}
+
+.cursoInfo {
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.cursoInfo h3 {
+    font-size: 50px;
+    color: #9600AE;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+#cursos .cursoInfo ul {
+    margin: 0;
+    color: #000;
+    font-family: 'roboto';
+    line-height: 35px;
+}
+
+#cursos .cursoInfo ul li {
+    font-size: 22px;
+}
+
+.cursoInfo p {
+    font-family: 'roboto';
+    font-size: 22px;
+    margin-block: 20px;
+}
+
+.cursoInfo button {
+    background-color: #128C7E;
+    border-radius: 30px;
+    padding: 12px 30px;
+    align-self: center;
+    margin-top: 15px;
+}
+
+.cursoInfo button a{
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 22px;
+    font-family: 'roboto';
+    transition: .4s;
+}
+
+.cursoInfo button a:hover{
+    color: #000;
+
+}
+
+.localizacao {
+    width: 530px;
+    height: 330px;
+    margin-right: 10%;
+    box-shadow: 20px 20px 15px #00000046;
+    border-radius: 5px;
+    background-color: #ffffff54;
+}
+
+.localizacao iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+
+}
+
+iframe .place-card.place-card-large {
+    display: none;
+}
+
+.default-card {
+    display: none;
+}
+
+footer {
+    background-color: #CE9FDF;
+    font-family: 'roboto';
+    height: 200px;
+}
+
+footer h4 {
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500;
+    padding-top: 15px;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 13px;
+    margin-top: 25px;
+    color: #000;
+}
+
+footer ul li img {
+    width: 22px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer a {
+    margin-left: 5%;
+    color: #000;
+}
+
+.footer div a{
+    display: flex;
+    align-items: center;
+    width: 150px;
+    color: #000;
+}
+
+.footer div {
+    margin-right: 5%;
+
+}
+
 
 
 

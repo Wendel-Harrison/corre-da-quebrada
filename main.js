@@ -262,5 +262,29 @@ sr.reveal("#divBtn", {
     origin: "top",
     distance: "10px",
     duration: 2000,
-    delay: 3000
+    delay: 2000
+})
+
+sr.reveal("#cursos", {
+    origin: "top",
+    distance: "10px",
+    duration: 2000,
+})
+sr.reveal("#titleCursos", {
+    origin: "top",
+    distance: "50px",
+    duration: 2500,
+    delay: 500
+})
+
+sr.reveal(".cursoInfo", {
+    origin: "left",
+    distance: "100px",
+    duration: 2000,
+    delay: 1500
+})
+
+sr.reveal("#iframe", {
+    duration: 2000,
+    delay: 2000
 })
