@@ -677,6 +677,95 @@ footer ul li img {
 
 }
 
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+}
+  
+body::-webkit-scrollbar-track {
+    background: rgb(252, 187, 252);        /* color of the tracking area */
+}
+  
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(183, 0, 255);    /* color of the scroll thumb */
+    border-radius: 05px;       /* roundness of the scroll thumb */
+    border: 2px solid rgb(207, 59, 252);  /* creates padding around scroll thumb */
+}
+
+
+  /* RESPONSIVO */
+
+@media (max-width: 480px) {
+
+    #a1, #a2 {
+        display: none;
+    }
+
+    header button{
+        margin: 0;
+        padding: 5px 10px;
+        margin-left: 30px;
+    }
+    header button a {
+        font-size: 14px;
+    }
+
+    nav{
+        gap: 5px;
+        padding: 0;
+    }
+
+    nav a {
+        font-size: 12px;
+        margin-right: 30px;
+    }
+
+    .inicio {
+        padding-top: 70px;
+        height: auto;
+    }
+
+    #titulo {
+        font-size: 30px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .inicio ul {
+        margin: 0;
+    }
+
+    .inicio ul li {
+        font-size: 17px;
+        text-align: center;
+    }
+
+    #fundo-wave {
+        position: initial;
+        height: auto;
+        margin-top: 120px;
+    }
+
+    .inicio div h3 {
+        margin-top: -120px;
+        font-size: 13px;
+    }
+
+    .seta {
+        width: 25px;
+        height: 25px;
+    }
+
+    .galeria {
+        margin-top: -10px;
+        padding-top: 50px;
+    }
+
+    #gallery{
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+}
+
 
 
 
