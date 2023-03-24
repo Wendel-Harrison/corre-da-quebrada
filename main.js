@@ -124,13 +124,10 @@ btnValor.addEventListener('click', abrirModal)
 function abrirModal() {
     const modal = document.getElementById('janela-modal')
     modal.classList.add('abrir')
-    const popup = document.getElementById('popup')
-    popup.style.display="none"
 
     modal.addEventListener('click', (e) => {
         if (e.target.id == 'fechar' || e.target.id == 'janela-modal') {
             modal.classList.remove('abrir')
-            popup.style.display="initial"
         }
     })
 }
@@ -269,7 +266,7 @@ sr.reveal("#pacote", {
 
 sr.reveal("#somenteUm", {
     origin: "left",
-    distance: "200px",
+    distance: "100px",
     duration: 2000,
     delay: 1000
 })
