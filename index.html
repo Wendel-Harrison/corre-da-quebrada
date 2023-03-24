@@ -18,6 +18,14 @@
 </head>
 <body>
     <main>
+
+        <!-- Widget do selo do Calendly - início -->
+        <div>
+            <link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
+        <script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
+        <script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/wendel-wdhr?background_color=ffffff&primary_color=9000ff', text: 'Agende aqui!', color: '#9000ff', textColor: '#ffffff', branding: true }); }</script>
+        </div>
+<!-- Widget do selo do Calendly - fim -->
         <div id="home">
 
             <header>
@@ -211,6 +219,13 @@
         </section>
 
         <section class="valores">
+            <div class="janela-modal" id="janela-modal">
+                <div class="modal">
+                    <button class="fechar" id="fechar">X</button>
+                    <div class="calendly-inline-widget" data-url="https://calendly.com/wendel-wdhr?primary_color=a800ff" style="min-width:320px;height:630px;"></div>
+                    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+                </div>
+            </div>
             <img id="bg-valores" src="./assets/bg-valores.svg" alt="">
            <div id="posicionamento">
             <h3 id="titleValores">Preço dos nossos serviços</h3>
@@ -254,11 +269,12 @@
             </div>
 
            <div id="divBtn">
-            <button>
-                <a href="">Agende aqui seu horário</a>
+            <button id="buttonValores">
+                Agende aqui seu horário
             </button>
+            </div>
+
         </div>
-           </div>
 
         </section>
 

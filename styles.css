@@ -364,8 +364,7 @@ ul li {
 }
 
 #posicionamento {
-    position: relative;
-    top: -400px;
+    margin-top: -400px;
 }
 
 .valores {
@@ -524,6 +523,70 @@ ul li {
     text-shadow: 2px 2px 1px #8F00FF80;
     padding: 15px 20px;
 }
+
+.janela-modal {
+    width: 100vw;
+    height: 1000px;
+    position: absolute;
+    background-color: #00000080;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    overflow: hidden;
+}
+
+@keyframes abrirModal {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -20px, -5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+
+    }
+}
+
+.abrir .modal {
+    animation: abrirModal .4s;
+}
+
+.janela-modal.abrir {
+    display: flex;
+    overflow-x: hidden;
+    transition: 1s;
+
+}
+
+.modal {
+    width: 60%;
+    height: 630px;
+    border-radius: 20px;
+    background-color: #ffffff7a;
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+}
+
+.fechar {
+    position: absolute;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 50%;
+    background: #9000ff;
+    color: #fff;
+    z-index: 999;
+    cursor: pointer;
+}
+
+.calendly-inline-widget{
+    border-radius: 20px;
+}
+
+
 
 #cursos {
     height: 700px;
@@ -861,8 +924,6 @@ body::-webkit-scrollbar-thumb {
     #posicionamento {
         top: -100px;
     }
-
-
 }
 
 

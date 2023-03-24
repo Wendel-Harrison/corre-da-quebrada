@@ -118,6 +118,22 @@ function procedimentos6() {
     manicure2.style.color="#9600AE"
     manicure3.style.color="#000"
 }
+const btnValor = document.getElementById('buttonValores')
+btnValor.addEventListener('click', abrirModal)
+
+function abrirModal() {
+    const modal = document.getElementById('janela-modal')
+    modal.classList.add('abrir')
+    const popup = document.getElementById('popup')
+    popup.style.display="none"
+
+    modal.addEventListener('click', (e) => {
+        if (e.target.id == 'fechar' || e.target.id == 'janela-modal') {
+            modal.classList.remove('abrir')
+            popup.style.display="initial"
+        }
+    })
+}
 
 
 
@@ -288,3 +304,12 @@ sr.reveal("#iframe", {
     duration: 2000,
     delay: 2000
 })
+
+/* 
+<div class="janela-modal" id="janela-modal">
+                <div class="modal">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, quia aperiam illo accusamus autem cumque enim harum voluptatum deserunt ab. Ab ipsa facere eos reiciendis neque rem voluptates repellendus sequi?</p>
+                </div>
+            </div>
+
+*/
