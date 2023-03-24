@@ -814,6 +814,55 @@ body::-webkit-scrollbar-thumb {
         width: 100%;
         height: auto;
     }
+
+    #procedimentos h2 {
+        font-size: 32px;
+        width: 90%;
+    }
+
+    #procedimentos .flex {
+        display: block;
+    }
+
+    .procedimento {
+        margin: 0;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+
+    .titlesProcedimento h3 {
+        font-size: 20px;
+    }
+
+    .titlesProcedimento ul li {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .textosManiJs div p {
+        font-size: 17px;
+        width: 80vw;
+    }
+
+    .textosPediJs div p {
+        font-size: 17px;
+        width: 80vw;
+    }
+
+    .imgProcedimentos {
+        display: none;
+    }
+
+    #bg-valores {
+        display: none;
+    }
+
+    #posicionamento {
+        top: -100px;
+    }
+
+
 }
 
 
