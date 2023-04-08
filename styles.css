@@ -396,7 +396,7 @@ ul li {
     width: 500px;
     height: 400px;
     background-image: url(./assets/bg-re.jpg);
-    box-shadow: 1px 3px 3px #9000ff;
+    box-shadow: 2px 6px 12px #9000ff;
     border-radius: 10px;
     padding-top: 25px;
     margin-bottom: 100px;
@@ -406,7 +406,7 @@ ul li {
     width: 600px;
     height: 250px;
     background-image: url(./assets/bg-re.jpg);
-    box-shadow: 1px 3px 3px #9000ff;
+    box-shadow: 2px 6px 12px #9000ff;
     border-radius: 10px;
     padding-top: 25px;
 }
@@ -736,6 +736,10 @@ footer ul li a {
     color: #000;
 }
 
+footer ul li a:hover {
+    color: #9000ff;
+}
+
 footer ul li img {
     width: 22px;
 }
@@ -756,6 +760,7 @@ footer ul li img {
     width: 150px;
     color: #000;
 }
+
 
 .footer div {
     margin-right: 5%;
@@ -897,7 +902,7 @@ body::-webkit-scrollbar-thumb {
 
     .divImg img {
         width: 100%;
-        height: auto;
+        max-height: 400px;
     }
 
     #procedimentos h2 {
