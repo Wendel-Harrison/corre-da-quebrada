@@ -7,9 +7,12 @@
 }
 
 :root {
-    scroll-behavior: smooth;
     font-family: "cookie";
   }
+
+html {
+    scroll-behavior: smooth;
+}
 
   main {
     overflow: overlay;
@@ -187,6 +190,7 @@ ul li {
     left: 20px;
     background-color: transparent;
     opacity: 0;
+    cursor: pointer;
 }
 
 #btnJs2 {
@@ -194,6 +198,8 @@ ul li {
     top: 490px;
     left: 640px;
     background-color: transparent;
+    cursor: pointer;
+
 }
 
 #btnJs1 img, #btnJs2 img{
@@ -229,6 +235,8 @@ ul li {
     width: 100%;
     height: 100%;
     position: initial;
+    object-fit: cover;
+    border-radius: 5px;
 }
 
 #procedimentos {
