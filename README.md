@@ -26,3 +26,4 @@ E o link para o protótipo no Figma está aqui:
 
 <a href="https://www.figma.com/file/L1f95bxJ7SA6qP37BMXExz/CORRE-DA-QUEBRADA?node-id=0-1&t=0HJltxQMwtPxRj1q-0">Figma</a>
 
+Obrigado a Todos!
